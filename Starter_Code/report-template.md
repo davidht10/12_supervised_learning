@@ -10,22 +10,31 @@ In this section, describe the analysis you completed for the machine learning mo
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
+
+Utilizing a dataset enriched with historical lending information, my aim is to engineer a model capable of accurately assessing borrower creditworthiness through machine learning techniques. The chosen methodology for this purpose is the Logistic Regression Algorithm, celebrated for its efficacy in predicting outcomes in classification challenges across various fields.
+
+
+
+
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  *Model 1 Accuracy: 97% (avg)
+      *Precision: 
+          *Healthy: 100% 
+          *High-risk: 84%
+      *Recall scores:
+          *Healthy: 99% 
+          *High-risk: 94%
+* Model 2 Accuracy: 99% (avg)
+      *Precision: 
+          *Healthy: 100% 
+          *High-risk: 84%
+      *Recall scores:
+          *Healthy: 99% 
+          *High-risk: 99%
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+I recommend using model 2, as it outperformed model 1. Model 2 was more accurate and displayed better recall for high-risk loans. That said, both models did superbly well at identifying healthy loans, so if that is the intended goal, either model works well.
