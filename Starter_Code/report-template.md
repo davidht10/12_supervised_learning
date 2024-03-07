@@ -20,21 +20,21 @@ Utilizing a dataset enriched with historical lending information, my aim is to e
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  *Model 1 Accuracy: 97% (avg)
-      *Precision: 
-          *Healthy: 100% 
-          *High-risk: 84%
-      *Recall scores:
-          *Healthy: 99% 
-          *High-risk: 94%
+Machine Learning Model 1:
+* Model 1 Accuracy: 97% (avg)
+      * Precision: 
+          * Healthy: 100% 
+          * High-risk: 84%
+      * Recall scores:
+          * Healthy: 99% 
+          * High-risk: 94%
 * Model 2 Accuracy: 99% (avg)
-      *Precision: 
-          *Healthy: 100% 
-          *High-risk: 84%
-      *Recall scores:
-          *Healthy: 99% 
-          *High-risk: 99%
+      * Precision: 
+          * Healthy: 100% 
+          * High-risk: 84%
+      * Recall scores:
+          * Healthy: 99% 
+          * High-risk: 99%
 
 ## Summary
 I recommend using model 2, as it outperformed model 1. Model 2 was more accurate and displayed better recall for high-risk loans. That said, both models did superbly well at identifying healthy loans, so if that is the intended goal, either model works well.

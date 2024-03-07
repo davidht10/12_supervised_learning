@@ -1,0 +1,1 @@
+This is the module 12 assignment. My work can be seen in the 'credit_risk_resampling' doc, and the brief analysis of the results can be found in the 'report-template'.
